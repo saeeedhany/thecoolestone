@@ -1,0 +1,305 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #f8f3e7;
+    --paper: #F4F0E6;
+    /* --paper: #F7F4ED; */
+    --ink: #1A1A1A;
+    --shadow: #A09C94;
+    --accent: #B33A3A;
+    --header-font: "Bebas Neue", sans-serif;
+    --content-font: "Roboto", sans-serif;
+    --test-font: "Patrick Hand", cursive;
+    --another-test-font: "Caveat", cursive;
+}
+
+body {
+    /* background-color: var(--paper); */
+    font-size: 19px;
+
+    background: 
+        repeating-linear-gradient(45deg, #f4f0e6, #f4f0e6 10px, #f3ede1 10px, #f3ede1 20px);
+    opacity: 0.98;
+
+    /* background-color: #f4f0e6; */
+    /* background-image: url("https://www.transparenttextures.com/patterns/textured-paper.png"); */
+}
+
+.container {
+    width: 90vw;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.hero .hero-content .container .content {
+    /* border: 1px solid black; */
+}
+
+.hero .hero-content .container .content .hero-list ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .hero-content .container .content .hero-list ul li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.hero .hero-content .container .content .hero-list ul li:first-child {
+    padding-left: 15px;
+}
+
+.hero .hero-content .container .content .hero-list ul li:last-child {
+    padding-right: 15px;
+}
+
+.hero .hero-content .container .content .hero-list ul li a {
+    text-decoration: none;
+    color: #111;
+    font-family: var(--header-font);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    color: rgba(26, 26, 26, 0.8);
+    transition: 0.2s all ease-in;
+}
+
+.hero .hero-content .container .content .hero-list ul li a:hover {
+    color: rgba(179, 58, 58, 1);
+}
+
+.hero .hero-content .container .content .hero-main {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    /* border: 1px solid red; */
+    padding-top: 20px;
+    pointer-events: none;
+}
+    
+.hero .hero-content .container .content .hero-main p {
+    pointer-events: none;
+    font-family: var(--header-font);
+    font-weight: 900;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin: 0;
+    line-height: 0.85;
+    text-align: center;
+    color: var(--accent);
+
+    font-size: calc(90vw / 4);
+}
+
+.hero .hero-content .container .content .hero-main p .res-hidden {
+    color: var(--ink);
+}
+
+.hero .hero-content .container .content .bio {
+    font-family: var(--header-font);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    width: 90vw;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: var(--ink);
+    /* color: rgba(26, 26, 26, 0.5); */
+    line-height: 0.9;
+    white-space: nowrap;
+    text-align: center;
+    padding: 0 20px;
+}
+
+    
+.hero .hero-content .container .content .bio span {
+    text-shadow: 1px 1px #A09C94;
+}
+
+.body .section .container .section-content {
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+    margin-top: 40px;
+    border: 2px solid var(--ink);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+
+  background: var(--paper);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  /* border-radius: 8px; */
+}
+
+.body .section .container .section-content .image img {
+    width: 550px;
+    /* background-color: #f4f0e6; */
+    /* mix-blend-mode: multiply; */
+}
+
+.body .section .container .section-content .desc {
+    font-family: var(--test-font);
+    position: relative;
+    top: 50;
+    left: 30;
+}
+
+.body .section .container .section-content .desc .fly {
+    position: absolute;
+    width: 90px;
+    top: -30;
+}
+
+.body .section .container .section-content .desc .flyy {
+    width: 60px;
+    position: relative;
+    top: 60;
+    left: 550;
+}
+
+.body .section .container .section-content .desc p {
+   position: relative;
+    width: 650px;
+    top: 70;
+    left: 30;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.body .section .container .section-content .desc .tech-title {
+    position: relative;
+    top: 40;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: var(--another-test-font);
+    color: var(--accent)
+}
+
+.body .section .container .section-content .desc .tech .icons {
+    position: relative;
+    top: 60;
+    left: 25;
+}
+
+.body .section .container .section-content .desc .tech .icons span {
+    font-size: 25px;
+}
+
+.body .section .container .section-content .desc .tech .icons i {
+    font-size: 30px;
+}
+
+.body .section .container .section-content .desc .tech-two {
+    position: relative;
+    top: 60;
+}
+
+.body .section .container .section-content .desc .tech-two .currently p {
+    position: relative;
+    top: 50;
+    font-size: 20px;
+}
+
+.body .section .container .second-section {
+    font-size: 21px;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    margin-top: 40px;
+    border: 2px solid var(--ink);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+
+  background: var(--paper);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  /* border-radius: 8px; */
+}
+
+.body .section .container .second-section .section-image img {
+    width: 900px;
+    position: relative;
+    left: -25;
+}
+
+.body .section .container .second-section .text-section {
+    position: relative;
+    top: 140;
+    right: 200;
+}
+
+.body .section .container .second-section .text-section .title {
+    padding-bottom: 10px;
+}
+
+.body .section .container .second-section .text-section .title p {
+    font-family: var(--another-test-font);
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--accent)
+}
+
+.body .section .container .second-section .links{
+    margin-bottom: 40px;
+    padding: 0 15px;
+}
+
+.body .section .container .second-section .links p {
+    padding-bottom: 10px;
+}
+
+.body .section .container .second-section .links p a {
+    color: var(--ink);
+    font-weight: bold;
+    transition: 0.2s all ease-in
+}
+
+.body .section .container .second-section .links p a:hover {
+    color: var(--accent)
+}
+    
+.body .section .container .second-section .text-section .links {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--test-font)
+}
+
+.body .section .container .footer {
+    height: 50px;
+    font-size: 22px;
+}
+
+.body .section .container .footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--test-font)
+}
+
+.body .section .container .footer .footer-content .right p a {
+    text-decoration: none;
+    color: var(--ink);
+    transition: 0.2s all ease-in
+}
+
+.body .section .container .footer .footer-content .right p a:hover {
+    color: var(--accent)
+}
+
+.body .section .container .footer .footer-content .left p span {
+    color: var(--accent)
+}
+
+
+
+
+
+
+
+
+
+
