@@ -21,10 +21,12 @@ body {
     /* background-color: var(--paper); */
     font-size: 19px;
 
-    background: 
-        repeating-linear-gradient(45deg, #f4f0e6, #f4f0e6 10px, #f3ede1 10px, #f3ede1 20px);
-    opacity: 0.98;
+    /* background:  */
+    /*     repeating-linear-gradient(45deg, #f4f0e6, #f4f0e6 10px, #f3ede1 10px, #f3ede1 20px); */
+    /* opacity: 0.98; */
 
+    background-image: url(../assets/bg.jpg)
+    
     /* background-color: #f4f0e6; */
     /* background-image: url("https://www.transparenttextures.com/patterns/textured-paper.png"); */
 }
@@ -139,20 +141,22 @@ body {
 .body .section .container .section-content {
     display: flex;
     justify-content: space-between;
-    height: 550px;
+    height: 650px;
     margin-top: 40px;
     border: 2px solid var(--ink);
     position: relative;
     overflow: hidden;
     margin-bottom: 40px;
 
+    /* background-image: url(../assets/pprbg.jpg); */
   background: var(--paper);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  /* box-shadow: 0 10px 30px rgba(0,0,0,0.1); */
   /* border-radius: 8px; */
 }
 
 .body .section .container .section-content .image img {
-    width: 550px;
+    max-width: 650px;
     /* background-color: #f4f0e6; */
     /* mix-blend-mode: multiply; */
 }
@@ -160,7 +164,7 @@ body {
 .body .section .container .section-content .desc {
     font-family: var(--test-font);
     position: relative;
-    top: 50;
+    top: 55;
     left: 30;
 }
 
@@ -231,20 +235,23 @@ body {
     overflow: hidden;
     margin-bottom: 40px;
 
-  background: var(--paper);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    /* background-image: url(../assets/pprbg.jpg); */
+  /* box-shadow: 0 10px 30px rgba(0,0,0,0.1); */
+    background: var(--paper);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
   /* border-radius: 8px; */
 }
 
 .body .section .container .second-section .section-image img {
-    width: 900px;
+    width: 950px;
     position: relative;
     left: -25;
+    bottom: 20;
 }
 
 .body .section .container .second-section .text-section {
     position: relative;
-    top: 140;
+    top: 110;
     right: 200;
 }
 
