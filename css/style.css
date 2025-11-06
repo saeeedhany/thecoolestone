@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -46,7 +46,7 @@ body {
 
 .hero .hero-content .container .content .hero-list ul li {
     list-style: none;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .hero .hero-content .container .content .hero-list ul li:first-child {
@@ -66,6 +66,21 @@ body {
     letter-spacing: 0.15em;
     color: rgba(26, 26, 26, 0.8);
     transition: 0.2s all ease-in;
+}
+
+.hero .hero-content .container .content .hero-list ul li .active {
+    color: var(--accent)
+}
+
+.hero .hero-content .container .content .hero-list ul li .cool {
+    color: var(--accent);
+    position: absolute;
+    font-size: 17px;
+    right: 100px;
+    top: 5px;
+    font-weight: bold;
+    font-family: var(--another-test-font);
+    transform: skewY(9deg)
 }
 
 .hero .hero-content .container .content .hero-list ul li a:hover {
