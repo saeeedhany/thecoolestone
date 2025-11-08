@@ -308,8 +308,9 @@ body {
     font-family: var(--test-font)
 }
 
+
 .body .section .container .footer .footer-content .right p a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: var(--ink);
     transition: 0.2s all ease-in
 }
@@ -318,8 +319,21 @@ body {
     color: var(--accent)
 }
 
-.body .section .container .footer .footer-content .left p span {
+.body .section .container .footer .footer-content .middle p a {
+    text-decoration: none;
+    color: var(--ink);
+    transition: 0.2s all ease-in;
+    font-weight: bold;
+}
+
+.body .section .container .footer .footer-content .middle p a:hover {
     color: var(--accent)
+}
+
+.body .section .container .footer .footer-content .left p span {
+    color: var(--accent);
+    font-family: var(--another-test-font);
+    font-weight: bold;
 }
 
 
