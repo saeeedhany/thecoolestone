@@ -21,11 +21,11 @@ body {
     /* background-color: var(--paper); */
     font-size: 19px;
 
-    /* background:  */
-    /*     repeating-linear-gradient(45deg, #f4f0e6, #f4f0e6 10px, #f3ede1 10px, #f3ede1 20px); */
-    /* opacity: 0.98; */
+    background: 
+        repeating-linear-gradient(45deg, #f4f0e6, #f4f0e6 10px, #f3ede1 10px, #f3ede1 20px);
+    opacity: 1;
 
-    background-image: url(../assets/bg.jpg)
+    /* background-image: url(../assets/bg.jpg) */
     
     /* background-color: #f4f0e6; */
     /* background-image: url("https://www.transparenttextures.com/patterns/textured-paper.png"); */
@@ -166,24 +166,26 @@ body {
     position: relative;
     top: 55;
     left: 30;
+    /* border: 1px solid var(--ink); */
+    height: 550px;
 }
 
 .body .section .container .section-content .desc .fly {
     position: absolute;
     width: 90px;
-    top: -30;
+    top: -20;
 }
 
 .body .section .container .section-content .desc .flyy {
     width: 60px;
     position: relative;
-    top: 60;
+    top: 75;
     left: 550;
 }
 
 .body .section .container .section-content .desc p {
    position: relative;
-    width: 650px;
+    width: 690px;
     top: 70;
     left: 30;
     font-weight: 500;
@@ -243,16 +245,20 @@ body {
 }
 
 .body .section .container .second-section .section-image img {
-    width: 950px;
+    width: 1000px;
     position: relative;
     left: -25;
-    bottom: 20;
+    bottom: 30;
 }
 
 .body .section .container .second-section .text-section {
     position: relative;
-    top: 110;
-    right: 200;
+    top: 90;
+    right: 150;
+    /* border: 2px solid var(--ink); */
+    height: fit-content; 
+    padding: 0 15px;
+    padding-top: 25px;
 }
 
 .body .section .container .second-section .text-section .title {
