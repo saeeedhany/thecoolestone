@@ -155,10 +155,15 @@ body {
   /* border-radius: 8px; */
 }
 
+.body .section .container .section-content .image {
+    position: relative;
+    bottom: 80;
+}
+
 .body .section .container .section-content .image img {
-    max-width: 650px;
+    width: 750px;
+    mix-blend-mode: multiply;
     /* background-color: #f4f0e6; */
-    /* mix-blend-mode: multiply; */
 }
 
 .body .section .container .section-content .desc {
@@ -245,7 +250,8 @@ body {
 }
 
 .body .section .container .second-section .section-image img {
-    width: 1000px;
+    width: 900px;
+    mix-blend-mode: multiply;
     position: relative;
     left: -25;
     bottom: 30;
